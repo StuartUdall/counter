@@ -5,7 +5,7 @@ define('modules/customScript', ["ui.api.v1", "models/server/callConstants", "mod
   ) {
 
 
-    // one or more objects containing contactField to be mapped to a call variable
+    // one or more objects containing contactField to be mapped to a Call variable
     // callVariable should be in the format of Group.CavName. i.e. Custom.my_var
     // IMPORTANT: make sure that the call variable is on the layout tab of the campaign profile, and is NOT read-only
     const contactFieldsToMap = [
